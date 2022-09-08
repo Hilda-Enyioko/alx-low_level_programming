@@ -1,2 +1,2 @@
 My journey learning C programming language. 
-Task 1: Hello, World
+Project 1: Hello, World
