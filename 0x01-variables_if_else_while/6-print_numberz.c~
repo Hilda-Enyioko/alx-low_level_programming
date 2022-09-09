@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry point
+ * Description: Print numbers of single digit in base 10
+ * Return: Alwats 0
+ */
+int main(void)
+{
+  int a;
+  for (a = 0; a < 10; a++)
+    {
+      putchar(a);
+    }
+  putchar('\n');
+  return (0);
+}
