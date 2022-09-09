@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 * Description: Print all single digits of base 10
-* return: Always 0
+* Return: Always 0(Success)
 */
 int main(void)
 {
