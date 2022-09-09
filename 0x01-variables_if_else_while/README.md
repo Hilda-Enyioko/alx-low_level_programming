@@ -22,3 +22,7 @@ Task 4: Write a program that prints the alphabet in lowercase, followed by a new
 
 Print all the letters except q and e
 
+Task 5: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+Task 6: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
