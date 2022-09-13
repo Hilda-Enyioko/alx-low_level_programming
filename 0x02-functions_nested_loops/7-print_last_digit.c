@@ -3,10 +3,11 @@
 
 /**
  * print_last_digit - print the last digit of a number
- * 
+ * @n: number to be tested
+ * @a: initial number
  * Return: Always 0
  */
-int print_last_digit(int)
+int print_last_digit(int n, int a)
 {
 int a;
 int n = a % 10;
