@@ -3,16 +3,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - local5 function, prototype in main.h
- * Description: a function that prints lowercase alphabet
- * Return: Always 0
- */
+* print_alphabet - local5 function, prototype in main.h
+* Description: a function that prints lowercase alphabet
+* Return: Always 0
+*/
 void print_alphabet(void)
 {
-  char a;
-  for (a = 'a'; a <= 'z'; a++)
-    {
-      _putchar(a);
-    }
-  _putchar('\n');
+char a;
+for (a = 'a'; a <= 'z'; a++)
+{
+_putchar(a);
+}
+_putchar('\n');
 }
