@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* _abs: prints absolute value
-* n: number that is tested
-* Description: function that computes the absolute value of an integer
+* _abs: prints absolute value of a number
+* Description: function that computes the absolute value of an integer 
+* n: number to be tested
 * Return: Always 0
 */
 int _abs(int n)
