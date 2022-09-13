@@ -3,7 +3,7 @@
 
 /**
  * print_alphabet_x10 - Entry point, see main.h
- * Description: a function that prints 10 times the alphabet, in lowercase, followed by a new line
+ * Description: a function that prints the alphabet in lowercase 10 times
  * Return: Alwys 0
  */
 void print_alphabet_x10(void)
