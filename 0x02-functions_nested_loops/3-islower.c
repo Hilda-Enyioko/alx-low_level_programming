@@ -17,5 +17,3 @@ else
 return (0);
 }
 }
-
-    
