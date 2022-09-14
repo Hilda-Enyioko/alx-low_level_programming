@@ -29,7 +29,8 @@ printf(", ");
 printf("\n");
 }
 if (n == 99)
-{continue;
+{
+continue;
 }
 printf("\n");
 }
