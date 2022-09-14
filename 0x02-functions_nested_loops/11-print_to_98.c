@@ -27,10 +27,10 @@ printf("%d", n);
 printf(", ");
 }
 printf("\n");
+}
 if (n == 99)
 {
 continue;
-}
 }
 printf("\n");
 }
