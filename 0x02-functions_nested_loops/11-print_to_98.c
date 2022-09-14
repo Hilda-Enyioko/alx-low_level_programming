@@ -28,9 +28,9 @@ continue;
 printf("\n");
 }
 
-if ((n >= 97) || (n == 98))
+if (n >= 98)
 {
-for (; n >= 97; n--)
+for (; n >= 98; n--)
 {
 printf("%d", n);
 printf(", ");
