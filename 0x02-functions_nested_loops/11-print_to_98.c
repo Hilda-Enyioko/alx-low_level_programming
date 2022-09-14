@@ -16,10 +16,10 @@ for (; n <= 97; n++)
 {
 printf("%d", n);
 printf(", ");
-if (n == 98)
+}
+for (n == 98)
 {
 printf("%d", n);
-}
 if (n == 98)
 {
 continue;
