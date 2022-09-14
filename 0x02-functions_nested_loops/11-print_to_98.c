@@ -20,7 +20,7 @@ if (n == 98)
 {
 printf("%d", n);
 }
-if (n == 99)
+if (n == 98)
 {
 continue;
 }
@@ -38,7 +38,7 @@ if (n == 98)
 {
 printf("%d", n);
 }
-if (n == 99)
+if (n == 98)
 {
 continue;
 }
