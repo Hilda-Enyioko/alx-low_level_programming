@@ -28,6 +28,10 @@ for (;n >= 98; n--)
 {
 printf("%d", n);
 printf(", ");
+if (n == 98)
+{
+continue;
+}
 }
 printf("\n");
 }
