@@ -21,6 +21,7 @@ for (; n == 98;)
 {
 if (n == 98)
 {
+continue;
 break;
 }
 }
