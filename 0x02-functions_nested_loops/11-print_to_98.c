@@ -4,7 +4,8 @@
 
 /**
 * print_to_98 - prints natural numbers to 98
-* @n: number to be tested
+* @n: start printing from n
+* Description: to print natural numbers to 98
 * Return: Always 0
 */
 void print_to_98(int n)
@@ -24,12 +25,12 @@ for (;n >= 98; n--)
 {
 printf("%d", n);
 printf(", ");
-if (n == 98)
+}
+printf("\n")
+if (n == 99)
 {
 continue;
 }
-}
-printf("\n");
 }
 printf("\n");
 }
