@@ -27,7 +27,7 @@ else if ((a % 3 != 0) && (a % 5 != 0) && (a != 100))
 {
 printf("%i ", a);
 }
-else
+else if (a == 100);
 {
 printf("%i", a);
 }
