@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -28,5 +29,4 @@ printf("%i ", a);
 }
 }
 }
-
 
