@@ -15,17 +15,14 @@ char b;
 char c;
 for (b = 0; b <= 14; b++)
 {
+
+c = b;
 if (b > 9)
 {
-b = c;
-c = b % 10;
 _putchar('1');
+c = b % 10;
+}
 _putchar(c + '0');
-}
-else
-{
-_putchar(b + '0');
-}
 }
 _putchar('\n');
 }
