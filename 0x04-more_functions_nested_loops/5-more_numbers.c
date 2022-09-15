@@ -15,13 +15,17 @@ int b;
 int c;
 for (b = 0; b <= 14; b++)
 {
-b = c;
 if (b > 9)
 {
-_putchar('1');
+b = c;
 c = b % 10;
-}
+_putchar('1');
 _putchar(c + '0');
+}
+else
+}
+_putchar(b + '0');
+}
 }
 _putchar('\n');
 }
