@@ -23,10 +23,10 @@ else if (a % 5 == 0)
 {
 printf("Buzz ");
 }
-else 
+else
 {
 printf("%i ", a);
 }
 }
-return 0;
+return (0);
 }
