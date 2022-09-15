@@ -15,7 +15,7 @@ int b;
 while (a < n && n > 0)
 {
 b = 0;
-while (b < a) 
+while (b < a)
 {
 _putchar(' ');
 b++;
