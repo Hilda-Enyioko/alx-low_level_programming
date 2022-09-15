@@ -9,7 +9,7 @@
 */
 void print_triangle(int size)
 {
-int a = 0;
+int a = 1;
 int b;
 
 while (a < size && size > 0)
@@ -29,6 +29,6 @@ b++;
 _putchar('\n');
 a++;
 }
-if (a <= 0)
+if (a <= 1)
 _putchar('\n');
 }
