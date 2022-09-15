@@ -23,7 +23,7 @@ else if (a % 5 == 0)
 {
 printf("Buzz ");
 }
-else if ((a % 3 != 0) && (a % 5 != 0) && (a != 100)
+else if ((a % 3 != 0) && (a % 5 != 0) && (a != 100))
 {
 printf("%i ", a);
 }
