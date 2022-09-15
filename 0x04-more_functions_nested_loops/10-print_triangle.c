@@ -30,6 +30,6 @@ c++;
 _putchar('\n');
 a++;
 }
-if (i <= 0)
+if (a <= 0)
 _putchar('\n');
 }
