@@ -29,10 +29,9 @@ printf("%i ", a);
 }
 else if (a == 100)
 {
-printf("%i", a);
+printf("%i\n", a);
 }
 }
-putchar('\n');
 putchar('\n');
 return (0);
 }
