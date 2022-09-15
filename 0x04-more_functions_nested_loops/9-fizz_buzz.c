@@ -32,5 +32,6 @@ else if (a == 100)
 printf("%i", a);
 }
 }
+putchar('\n');
 return (0);
 }
