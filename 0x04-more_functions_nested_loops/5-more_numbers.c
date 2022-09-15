@@ -11,8 +11,8 @@ void more_numbers(void)
 int a;
 for (a = 1; a <= 10; a++)
 {
-int b;
-int c;
+char b;
+char c;
 for (b = 0; b <= 14; b++)
 {
 if (b > 9)
