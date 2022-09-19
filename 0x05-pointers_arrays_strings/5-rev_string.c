@@ -14,7 +14,7 @@ int a;
 int b;
 char c;
 for (a = 0; s[a] != '\0'; a++)
-;
+
 i = 0;
 b = a / 2;
 while (b--)
@@ -22,5 +22,6 @@ while (b--)
 c = s[a - i - 1];
 s[a - i - 1] = s[i];
 s[i] = c;
+i++
 }
 }
