@@ -14,6 +14,7 @@ int a;
 int b;
 char c;
 for (a = 0; s[a] != '\0'; a++)
+;
 i = 0;
 b = a / 2;
 while (b--)
