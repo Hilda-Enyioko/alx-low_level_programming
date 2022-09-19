@@ -12,7 +12,7 @@ int i;
 i = 0;
 while (str[i])
 {
-i++
+i++;
 }
 
 int a = (i / 2);
