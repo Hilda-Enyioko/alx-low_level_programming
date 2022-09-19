@@ -16,3 +16,4 @@ while (i--)
 {
 _putchar(s[i]);
 }
+}
