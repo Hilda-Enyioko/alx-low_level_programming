@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /* Description: Header file for function prototypes for Alx Low-Level Programming, Project 5.*/
 
