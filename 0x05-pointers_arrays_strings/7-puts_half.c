@@ -12,8 +12,11 @@ int i;
 for (i = 0; str[i]; i++)
 {
 int a = (i / 2);
+while (str[a])
+{
 _putchar(str[a]);
 a++;
+}
 }
 _putchar('\n');
 }
