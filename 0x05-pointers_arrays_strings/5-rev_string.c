@@ -13,8 +13,7 @@ int i;
 int a;
 int b;
 char c;
-while (s[a] != '\0')
-a++;
+for (a = 0; s[a] != '\0'; a++)
 i = 0;
 b = a / 2;
 while (b--)
