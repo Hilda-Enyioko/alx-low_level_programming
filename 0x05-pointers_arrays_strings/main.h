@@ -2,7 +2,7 @@
 
 /* Description: Header file for function prototypes for Alx Low-Level Programming, Project 5.*/
 
-
+int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
