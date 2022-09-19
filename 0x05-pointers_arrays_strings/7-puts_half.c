@@ -10,12 +10,10 @@ void puts_half(char *str)
 {
 int i;
 for (i = 0; str[i]; i++)
-{
 int a = (i / 2);
-while (str[a])
+for (i = a; str[i]; i++)
 {
-_putchar(str[a]);
-a++;
+_putchar(str[i]);
 }
 }
 _putchar('\n');
