@@ -20,8 +20,6 @@ i++;
 while (a < n)
 {
 *(dest + i) = *(src + a);
-i++;
-a++;
 if  (*(src + a) == '\0')    
 break;
 a++;
