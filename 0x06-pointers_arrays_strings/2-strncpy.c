@@ -16,9 +16,8 @@ i++;
 dest[i] = src[i];
 } while (src[i] != '\0' && i < n);
 i = i;
-while (i < n)
+while (i < n && dest[i] != 0)
 {
-dest[i] != '\0';
 i++;
 }
 return (dest);
