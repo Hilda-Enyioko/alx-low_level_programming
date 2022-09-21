@@ -19,7 +19,7 @@ i++;
 }
 while (a < n && *(src + a) != '\0')
 {
-*(dest + i) = *(src + a);
+*(dest + i + a) = *(src + a);
 a++;
 i++;
 
