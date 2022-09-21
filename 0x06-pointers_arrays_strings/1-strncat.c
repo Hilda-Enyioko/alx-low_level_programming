@@ -17,13 +17,12 @@ for (i = 0; *(dest + i) != '\0'; i++)
 {
 i++;
 }
-while (a < n)
+while (a < n && *(src + a) != '\0')
 {
 *(dest + i) = *(src + a);
-if  (*(src + a) == '\0')    
-break;
 a++;
 i++;
+
 }
 return (dest);
 }
