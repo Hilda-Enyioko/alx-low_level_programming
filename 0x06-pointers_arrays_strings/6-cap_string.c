@@ -8,7 +8,7 @@
 */
 char *cap_string(char *str)
 {
-char *a = " \t;\n;,.!?"(){}";
+char a[]= " \t;\n;,.!?"(){}";
 int i, j, k;
 for (i = 0; str[i] != '\0'; i++)
 {
