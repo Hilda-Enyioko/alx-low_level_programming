@@ -21,9 +21,9 @@ j = 1;
 }
 else
 {
-for (k = 0; a[k] != '\0', k++)
+for (k = 0; a[k] != '\0'; k++)
 {
-if (str(i - 1) == a[k])
+if (str[i - 1] == a[k])
 {
 j = 1;
 break;
