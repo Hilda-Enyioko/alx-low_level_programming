@@ -15,6 +15,6 @@ i++;
 
 while (i--)
 {
-_putchar(s[i]);
+_putchar(a[i]);
 }
 }
