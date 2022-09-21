@@ -6,7 +6,7 @@
 * @str: string to be tested
 * Return: 0
 */
-char *cap_string(char *str);
+char *cap_string(char *str)
 {
 char *a = " \t;\n,;.!?"(){}";
 int i, j, k;
