@@ -15,12 +15,10 @@ for (i = 0; dest[i] != '\0'; i++)
 {
 i++;
 }
-
- for (a = 0; src[a] != '\0'; a++)
-   {
-     dest[i] = src[a];
-     a++;
-     i++;
-   }
- return (dest);
+for (a = 0; src[a] != '\0'; a++)
+{
+dest[i] = src[a];
+i++;
+}
+return (dest);
 }
