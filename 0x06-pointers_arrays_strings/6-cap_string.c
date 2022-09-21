@@ -9,7 +9,9 @@
 char *cap_string(char *str)
 {
 char a[]= " \t;\n;,.!?"(){}";
-int i, j, k;
+int i;
+int j;
+int k;
 for (i = 0; str[i] != '\0'; i++)
 {
 j = 0;
