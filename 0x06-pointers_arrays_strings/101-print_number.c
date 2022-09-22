@@ -8,7 +8,7 @@
 */
 void print_number(int n)
 {
-int a, b, c;
+unsigned int a, b, c;
 if (n < 0)
 {
 _putchar('-');
@@ -18,13 +18,14 @@ else
 {
 a = n;
 }
+b = a;
 c = 1;
-for (b = a; b > 9;)
+while (b > 9)
 {
 b /= 10;
 c *= 10;
 }
-for (; c > 1; c /= 10)
+for (; c >= 1; c /= 10)
 {
 _putchar(((a / c) % 10) + '0');
 }
