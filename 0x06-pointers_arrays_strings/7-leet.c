@@ -10,12 +10,9 @@ char *leet(char *str)
 {
 int i;
 int j;
-int a[];
-int b[];
-int c[];
-a[] = "AEOTL";
-b[] = "aeotl";
-c[] = "43071";
+int a[] = "AEOTL";
+int b[] = "aeotl";
+int c[] = "43071";
 for (i = 0; s[i] != '\0'; i++)
 {
 for (j = 0; j < 5; j++)
