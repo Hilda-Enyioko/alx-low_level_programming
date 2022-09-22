@@ -23,7 +23,6 @@ for (j = 0; j < 5; j++)
 if (s[i] == a[j] || s[i] == b[j])
 {
 s[i] = c[j];
-break;
 }
 }
 }
