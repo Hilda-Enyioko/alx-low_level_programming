@@ -12,7 +12,7 @@ int i;
 int j;
 char a[] = "AEOTL";
 char b[] = "aeotl";
-int c[] = "43071";
+char c[] = "43071";
 for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 5; j++)
