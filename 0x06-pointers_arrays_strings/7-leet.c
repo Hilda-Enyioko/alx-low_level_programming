@@ -13,15 +13,15 @@ int j;
 int a[] = "AEOTL";
 int b[] = "aeotl";
 int c[] = "43071";
-for (i = 0; s[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 5; j++)
 {
-if (s[i] == a[j] || s[i] == b[j])
+if (str[i] == a[j] || str[i] == b[j])
 {
-s[i] = c[j];
+str[i] = c[j];
 }
 }
 }
-return (s);
+return (str);
 }
