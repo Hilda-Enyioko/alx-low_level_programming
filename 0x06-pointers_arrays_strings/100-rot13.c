@@ -22,6 +22,5 @@ str[i] = b[j];
 }
 }
 }
-}
 return (str);
 }
