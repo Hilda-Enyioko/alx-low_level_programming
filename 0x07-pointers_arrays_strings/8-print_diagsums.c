@@ -14,7 +14,7 @@ for (i = 0; i < size; i++)
 {
 s1 += a[i];
 s2 += a[size - i - 1];
-a +=size;
+a += size;
 }
 printf("%d", s1);
 printf("%d\n", s2);
