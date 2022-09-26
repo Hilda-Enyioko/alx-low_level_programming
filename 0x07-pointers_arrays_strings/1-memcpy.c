@@ -5,7 +5,7 @@
 * @src: source pointer of bytes to be copied
 * @dest: destination pointer of bytes to be copied
 * @n: maximum bytes to copy
-* Return: des
+* Return: dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n);
 {
