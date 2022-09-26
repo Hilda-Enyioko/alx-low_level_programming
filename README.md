@@ -13,3 +13,6 @@ Project 4: More on C Functions and Nested Loops.
 Project 5: C Pointers, arrays, and strings
 
 Project 6: More on C Pointers, arrays, and strings
+
+Project 7: More on C Pointers, arrays and strings
+
