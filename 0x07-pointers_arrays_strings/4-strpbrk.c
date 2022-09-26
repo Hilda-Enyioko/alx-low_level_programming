@@ -20,5 +20,6 @@ p = &s[i];
 }
 return (p);
 }
+}
 return (0);
 }
