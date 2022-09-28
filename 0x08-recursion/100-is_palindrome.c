@@ -10,7 +10,7 @@ int string_end(char *s)
 {
 int n = 0;
 if (*s > '\0')
-n += string_end(s + 1) + 1);
+n += string_end(s + 1) + 1));
 return (n);
 }
 
