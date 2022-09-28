@@ -21,7 +21,7 @@ return (check_palindrome(s, 0, end - 1, end % 2));
 */
 int check_palindrome (char *s, int start, int end, int p)
 {
-if ((start == end && pair != 0) || (start == end + 1 && p == 0))
+if ((start == end && p != 0) || (start == end + 1 && p == 0))
 {
 return(1);
 }
