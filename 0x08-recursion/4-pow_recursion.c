@@ -23,4 +23,3 @@ return (x);
 }
 return (x * _pow_recursion(x, y - 1));
 }
-
