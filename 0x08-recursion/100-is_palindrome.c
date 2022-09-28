@@ -31,19 +31,20 @@ return (check_palindrome(s, 0, end - 1, end % 2));
 * @start: s string from left to right
 * @end: s string from right to left
 * @p: int
+* Return: 0 or 1
 */
 int check_palindrome (char *s, int start, int end, int p)
 {
 if ((start == end && p != 0) || (start == end + 1 && p == 0))
 {
-return(1);
+return (1);
 }
 else if (s[start] != s[end])
 {
-return(0);
+return (0);
 }
 else
 {
-return (check_palindrome (s, start + 1, end - 1, p));
+return (check_palindrome(s, start + 1, end - 1, p));
 }
 }
