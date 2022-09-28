@@ -11,3 +11,4 @@ int _putchar(char c);
 int _sqroot(int n, int a);
 int check_prime(int n, int a);
 int check_palindrome(char *s, int start, int end, int p);
+int string_end(char *s);
