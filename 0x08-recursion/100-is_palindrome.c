@@ -31,6 +31,6 @@ return(0);
 }
 else
 {
-return (check_palindrome (s, start, end, p);
+return (check_palindrome (s, start + 1, end - 1, p);
 }
 }
