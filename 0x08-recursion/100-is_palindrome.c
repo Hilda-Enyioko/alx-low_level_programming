@@ -2,13 +2,26 @@
 #include <stdio.h>
 
 /**
+* string_end - returns the last index of a string
+* @s: string to be tested
+* Return: int
+*/
+int string_end(char *s)
+{
+int n = 0;
+if (*s > '\0')
+n += string_end(s + 1) + 1);
+return (n);
+}
+
+/**
 * is_palindrome - returns 1 if a string is a palindrome, else 0
 * @s: string to be tested
 * Return: 0 or 1
 */
 int is_palindrome(char *s)
 {
-int end = _strlen_recursion(s);
+int end = string_end(s);
 return (check_palindrome(s, 0, end - 1, end % 2));
 }
 
