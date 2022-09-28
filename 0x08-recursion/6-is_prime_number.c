@@ -32,4 +32,3 @@ else
 return (check_prime(n, a + 1));
 }
 }
-  
