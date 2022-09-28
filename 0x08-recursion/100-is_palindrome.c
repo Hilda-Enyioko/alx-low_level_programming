@@ -33,7 +33,7 @@ return (check_palindrome(s, 0, end - 1, end % 2));
 * @p: int
 * Return: 0 or 1
 */
-int check_palindrome (char *s, int start, int end, int p)
+int check_palindrome(char *s, int start, int end, int p)
 {
 if ((start == end && p != 0) || (start == end + 1 && p == 0))
 {
