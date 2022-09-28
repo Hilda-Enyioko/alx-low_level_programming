@@ -10,3 +10,4 @@ int is_prime_number(int n);
 int _putchar(char c);
 int _sqroot(int n, int a);
 int check_prime(int n, int a);
+int check_palindrome(int *s, int start, int end, int p);
