@@ -18,6 +18,6 @@ Project 7: More on C Pointers, arrays and strings
 
 Project 8: C Recursion
 
-Project 9:
+Project 9: Learning about C static libraries
 
 Project A: C argc and argv
