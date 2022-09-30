@@ -7,7 +7,7 @@
 * @argv: argument vector(array)
 * Return: 0
 */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 (void)argv;
 printf("%d", argc - 1);
