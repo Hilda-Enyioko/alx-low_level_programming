@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
-* check_integer: checks if a is an integer
-* @s: string to check
+* check_integer - checks if a is an integer
+* @a: string to check
 * Return: 0 or 1
 */
 int check_integer(char *a)
