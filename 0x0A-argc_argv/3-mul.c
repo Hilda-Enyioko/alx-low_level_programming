@@ -10,11 +10,10 @@
 */
 int main(int argc, char const *argv[])
 {
-int a = atoi(argv[1]) * atoi(argv[2]);
 (void)argc;
 if (argc == 3)
 {
-printf("%i\n", a);
+printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
 }
 printf("Error\n");
