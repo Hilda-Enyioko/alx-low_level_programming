@@ -3,16 +3,16 @@
 
 /**
  * _puts - function that prints a string, followed by a new line
- * @str: string to be printed
+ * @s: string to be printed
  * Description: a function that prints a string, followed by a new line
  * Return: 0
  */
-void _puts(char *str)
+void _puts(char *s)
 {
   int i;
-  for (i = 0; str[i]; i++)
+  for (i = 0; s[i]; i++)
     {
-      _putchar(str[i]);
+      _putchar(s[i]);
     }
   _putchar('\n');
 }
