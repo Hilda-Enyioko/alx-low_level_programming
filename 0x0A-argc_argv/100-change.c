@@ -28,7 +28,7 @@ return (1);
 * @argv: argument vector(string)
 * Return: 0 or 1 or number of coins
 */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 int i = 0;
 int n = 0;
