@@ -2,26 +2,6 @@
 #include <stdlib.h>
 
 /**
-* isInteger - checks for integers
-* @s: string to be tested
-* Return: 0 or 1
-*/
-int isInteger(char const *s)
-{
-int i = 0;
-while (s[i] != '\0')
-{
-if (s[i] < '0' || s[i] > '9')
-{
-return (0);
-i++;
-}
-}
-return (1);
-}
-
-
-/**
 * main - prints minimum coins to make change for an amount of money
 * @argc: argument count(int)
 * @argv: argument vector(string)
@@ -29,31 +9,31 @@ return (1);
 */
 int main(int argc, char *argv[])
 {
-int i = 0;
+int cents = atoi(argv[1]);
 int n = 0;
-int coinUsed = 0;
-int coins[] = {25, 10, 5, 2, 1};
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
-if (isInteger(argv[1]))
+if (cents < 0)
 {
-i = atoi(argv[1]);
-while (i > 0 && n <= 4)
+printf("0\n");
+}
+while (cents > 0)
 {
-if (i >= coins[n])
-{
-i -= coins[n];
-coinUsed++;
+if (cents >= 25)
+cents -= 25;
+else if (cents >= 10)
+cents -= 10;
+else if (cents >= 5)
+cents -= 5;
+else if (cents >= 2)
+cents -= 2;
+else if (cents >= 1)
+cents -= 1;
+n += 1;
 }
-else
-{
-n++;
-}
-}
-}
-printf("%i\n", coinUsed);
+printf("%d\n", n);
 return (0);
 }
