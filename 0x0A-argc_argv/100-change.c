@@ -6,7 +6,7 @@
 * @s: string to be tested
 * Return: 0 or 1
 */
-int isInteger(char *s)
+int isInteger(char const *s)
 {
 int i = 0;
 while (s[i] != '\0')
@@ -55,6 +55,6 @@ n++;
 }
 }
 }
-printf ("%i\n", coinUsed);
+printf("%i\n", coinUsed);
 return (0);
 }
