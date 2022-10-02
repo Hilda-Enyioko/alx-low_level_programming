@@ -21,7 +21,6 @@ return (1);
 }
 
 
-
 /**
 * main - prints minimum coins to make change for an amount of money
 * @argc: argument count(int)
