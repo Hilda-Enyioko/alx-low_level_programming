@@ -27,7 +27,7 @@ return (1);
 * @argv: argument vector(string)
 * Return: 0 or 1 or number of coins
 */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
 int i = 0;
 int n = 0;
@@ -38,7 +38,7 @@ if (argc != 2)
 printf("Error\n");
 return (1);
 }
-if (isInteger(argv[1])
+if (isInteger(argv[1]))
 {
 i = atoi(argv[1]);
 while (i > 0 && n <= 4)
