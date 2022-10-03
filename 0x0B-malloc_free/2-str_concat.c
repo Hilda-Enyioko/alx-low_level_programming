@@ -69,7 +69,7 @@ return (NULL);
 size = 0;
 while (size <= size1 + size2)
 {
-p[size] = _strcat(s1, s2);
+*p = _strcat(s1, s2);
 }
 p[size] = '\0';
 return (p);
