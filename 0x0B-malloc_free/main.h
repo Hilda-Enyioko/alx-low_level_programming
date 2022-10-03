@@ -9,3 +9,5 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 int _putchar(char c);
 void simple_print_buffer(char *buffer, unsigned int size);
+int _strlen(char *s);
+char *_strcat(char *dest, char *src);
