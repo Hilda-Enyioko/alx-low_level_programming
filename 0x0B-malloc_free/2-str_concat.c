@@ -49,7 +49,6 @@ if (size < size1)
 p[size] = s1[size];
 else
 p[size] = s2[size - size1];
-size++;
 }
 p[size] = '\0';
 return (p);
