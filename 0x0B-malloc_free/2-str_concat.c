@@ -14,9 +14,9 @@ char *p;
 int i, size1, size2;
 int mid;
 if (s1 == NULL)
-s1 = '\0';
+s1 = "";
 if (s2 == NULL)
-s2 = '\0';
+s2 = "";
 for (size1 = 0; s1[size1] != '\0'; size1++)
 ;
 for (size2 = 0; s2[size2] != '\0'; size2++)
@@ -24,6 +24,7 @@ for (size2 = 0; s2[size2] != '\0'; size2++)
 p = malloc(sizeof(char) * (size1 + size2 + 1));
 if (p == NULL)
 {
+free(p);
 return (NULL);
 }
 for (i = 0; i < 1; i++)
