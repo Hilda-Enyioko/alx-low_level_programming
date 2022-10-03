@@ -21,3 +21,5 @@ Project 8: C Recursion
 Project 9: Learning about C static libraries
 
 Project A: C argc and argv
+
+Project B: Malloc and free
