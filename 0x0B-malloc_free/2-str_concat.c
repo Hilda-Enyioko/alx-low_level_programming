@@ -21,7 +21,7 @@ for (size1 = 0; s1[size1] != '\0'; size1++)
 ;
 for (size2 = 0; s2[size2] != '\0'; size2++)
 ;
-p = malloc(sizeof(char * (size1 + size2 + 1));
+p = malloc(sizeof(char * (size1 + size2 + 1)));
 if (p == NULL)
 {
 return (NULL);
@@ -33,7 +33,7 @@ p[i] = s1[i];
 mid = size2;
 for (size2 = 0; size2 <= mid; size2++, i++)
 {
-p[i] = s2[i]
+p[i] = s2[i];
 }
 return (p);
 }
