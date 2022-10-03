@@ -19,29 +19,6 @@ return (i);
 
 
 /**
-* _strcat - function that concatenates two strings
-* @dest: string that is appended to src strong
-* @src: string that is appended to dest strong
-* Return: Always 0
-*/
-char *_strcat(char *dest, char *src)
-{
-int a;
-int i;
-for (i = 0; dest[i] != '\0'; i++)
-{
-i++;
-}
-for (a = 0; src[a] != '\0'; a++)
-{
-dest[i] = src[a];
-i++;
-}
-return (dest);
-}
-
-
-/**
 * *str_concat - concatenates two strings
 * @s1: first string
 * @s2: second string
@@ -69,7 +46,13 @@ return (NULL);
 size = 0;
 while (size <= size1 + size2)
 {
-*p = _strcat(s1, s2);
+if (size < size1)
+{
+p[size] = s1[size];
+}
+else
+p[size] = s2[size - size1];
+p++;
 }
 p[size] = '\0';
 return (p);
