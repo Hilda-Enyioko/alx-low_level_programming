@@ -34,7 +34,7 @@ return (NULL);
 while (ac--)
 a += _strlen(av[ac] + 1);
 p = (char *) malloc(a + 1);
-if (p = NULL)
+if (p == NULL)
 {
 return (NULL);
 }
