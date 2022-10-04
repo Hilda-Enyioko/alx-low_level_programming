@@ -16,7 +16,7 @@ if (str == NULL)
 return (NULL);
 while (str[size] != '\0')
 size++;
-ptr = malloc(size * sizeof(*str) + 1);
+ptr = malloc(size * sizeof(char) + 1);
 if (ptr == 0)
 return (NULL);
 else
