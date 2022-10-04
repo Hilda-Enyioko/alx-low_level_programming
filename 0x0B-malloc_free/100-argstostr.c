@@ -3,23 +3,6 @@
 #include <stdlib.h>
 
 /**
- * _strlen - a function that prints the length of a string
- * @s: char pinter that oiints to the char string
- * Description: a function that returns the length of a string
- * Return: 0
- */
-int _strlen(char *s)
-{
-int i = 0;
-if (s != NULL)
-{
-while (s[i])
-i++;
-}
-return (i);
-}
-
-/**
  * *argstostr - concatenates all the arguments of your program
  * @ac: int
  * @av: char
@@ -27,31 +10,30 @@ return (i);
  */
 char *argstostr(int ac, char **av)
 {
-int i = 0, j = ac;
-int a = 0, b = 0;
-int n;
-char *p;
+int i, n;
+int r = 0, l = 0; 
+char *str; 
 if (ac == 0 || av == NULL)
-return (NULL);
-
-while (ac--)
-a += _strlen(av[ac] + 1);
-p = (char *) malloc(a + 1);
-if (p == NULL)
+ return (NULL); 
+for (i = 0; i < ac; i++)
 {
-return (NULL);
+for (n = 0; av[i][n]; n++)
+l++;
 }
-else
+l += ac;
+str = malloc(sizeof(char) * l + 1);
+if (str == NULL)
+return (NULL); 
+for (i = 0; i < ac; i++) 
 {
-while (i < j)
+for (n = 0; av[i][n]; n++)
 {
-for (n = 0; av[i][n] != '\0'; n++)
-p[n + b] = av[i][n];
-p[n + b] = '\n';
-b += (j + 1);
-i++;
+ str[r]= av[i][n];
+r++;
 }
-p[b] = '\0';
+if (str[r] == '\0')
+{
+ str[r++] = '\n';
 }
-return (p);
+ return (str);
 }
