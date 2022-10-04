@@ -28,4 +28,3 @@ ptr[i] = str[i];
 }
 return (ptr);
 }
-      
