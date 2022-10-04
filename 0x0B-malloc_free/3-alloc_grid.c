@@ -20,7 +20,7 @@ return (NULL);
 ptr = malloc(sizeof(*ptr) * height);
 if (ptr == 0)
 return (NULL);
-if ((width > 0) && (height > 0) && (ptr > 0))
+if ((width > 0) && (height > 0) && (ptr != 0))
 {
 for (h = 0; h < height; h++)
 {
