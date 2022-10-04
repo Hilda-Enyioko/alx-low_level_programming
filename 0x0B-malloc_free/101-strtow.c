@@ -6,6 +6,7 @@
  * count_word - counts the number of words in a string
  * @s: string to be counted
  * Return: mumber of words 
+ */
 int count_word (char *s)
 {
 int a, b, c;
