@@ -21,7 +21,7 @@ if (ptr == 0)
 return (NULL);
 else
 {
-for (i = 0;i < size, i++)
+for (i = 0; i < size; i++)
 {
 ptr[i] = str[i];
 }
