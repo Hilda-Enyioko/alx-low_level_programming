@@ -68,7 +68,7 @@ c = 0;
 else if (c++ == 0)
 start = 1;
 }
-ptr1[k] = NULL; 
+ptr1[k] = NULL;
 
 return (ptr1);
 }
