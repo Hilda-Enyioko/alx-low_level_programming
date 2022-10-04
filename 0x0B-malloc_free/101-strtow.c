@@ -27,7 +27,7 @@ return (c);
 
 /**
  * **strtow - splits a string into words
- * str: string to be tested
+ * @str: string to be tested
  * Return: pointer to array of strings(words) or NULL
  */
 char **strtow(char *str)
@@ -42,9 +42,9 @@ return (NULL);
 ptr1 = (char **)malloc(sizeof(char *) * (words + 1));
 if (ptr1 == NULL)
 return (NULL); 
-for (i = 0; i <=len; i++)
+for (i = 0; i <= len; i++)
 {
-if (str[i] == ' '|| str[i] == '\0')
+if (str[i] == ' ' || str[i] == '\0')
 {
 if (c)
 { 
