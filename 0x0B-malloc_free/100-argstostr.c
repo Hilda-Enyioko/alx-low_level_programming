@@ -32,7 +32,7 @@ if (ac == 0 || av == NULL)
 return (NULL);
 for (i = 0; i < ac; i++, j++)
 j += _strlen(av[i]);
-p = malloc(sizeof(char) * j + 1);
+p = malloc(sizeof(char) * (j + 1));
 if (p == 0)
 return (NULL);
 
