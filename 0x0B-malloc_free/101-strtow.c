@@ -5,7 +5,7 @@
 /**
  * count_word - counts the number of words in a string
  * @s: string to be counted
- * Return: mumber of words 
+ * Return: mumber of words
  */
 int count_word(char *s)
 {
@@ -33,12 +33,12 @@ return (c);
  */
 char **strtow(char *str)
 {
-char **ptr1, *ptr2; 
+char **ptr1, *ptr2;
 int i, k = 0, len = 0, words, c = 0, start, end;
 
 while (*(str + len))
 len++;
-words = count_word(str); 
+words = count_word(str);
 if (words == 0)
 return (NULL);
 
@@ -67,7 +67,7 @@ c = 0;
 }
 else if (c++ == 0)
 start = 1;
-} 
+}
 ptr1[k] = NULL; 
 
 return (ptr1);
