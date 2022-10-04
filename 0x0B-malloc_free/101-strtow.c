@@ -7,7 +7,7 @@
  * @s: string to be counted
  * Return: mumber of words 
  */
-int count_word (char *s)
+int count_word(char *s)
 {
 int a, b, c;
 a = 0;
