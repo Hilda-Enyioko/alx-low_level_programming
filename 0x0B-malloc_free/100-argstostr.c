@@ -16,7 +16,6 @@ i++;
 return (i);
 }
 
-
 /**
  * *argstostr - concatenates all the arguments of your program
  * @ac: int
@@ -25,24 +24,31 @@ return (i);
  */
 char *argstostr(int ac, char **av)
 {
-int i, j = 0;
-int a, b = 0;
+int i = 0, j = ac;
+int a = 0, b = 0;
+int n;
 char *p;
 if (ac == 0 || av == NULL)
 return (NULL);
-for (i = 0; i < ac; i++, j++)
-j += _strlen(av[i]);
-p = malloc(sizeof(char) * (j + 1));
-if (p == 0)
-return (NULL);
 
-for (i = 0; i < ac; i++)
+while (ac--)
+a += _strlen(av[ac] + 1);
+p = (char *)malloc(a + 1);
+if (p == NULL)
 {
-for (a = 0; av[i][j] != '\0'; a++, b++)
-p[b] = av[i][j];
-p[b] = '\n';
-b++;
+return (NULL);
+}
+else
+{
+while (i < j)
+{
+for (n = 0; av[i][n] != '\0'; n++)
+p[n + b] = av[i][n];
+p[n + b] = '\n';
+b += (j + 1);
+i++;
 }
 p[b] = '\0';
+}
 return (p);
 }
