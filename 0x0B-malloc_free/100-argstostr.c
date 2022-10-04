@@ -18,7 +18,7 @@ return (i);
 
 
 /**
- * *argstost - concatenates all the arguments of your program
+ * *argstostr - concatenates all the arguments of your program
  * @ac: int
  * @av: char
  * Return: a pointer to a new string or NULL
@@ -37,11 +37,9 @@ return (NULL);
 for (i = 0; i < ac; i++)
 {
 for (a = 0; av[i][j] != '\0'; a++, b++)
-{
 p[b] = av[i][j];
 p[b] = '\n';
 b++;
-}
 }
 p[b] = '\0';
 return (p);
