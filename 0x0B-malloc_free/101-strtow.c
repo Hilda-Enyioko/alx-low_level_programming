@@ -54,12 +54,12 @@ return (NULL);
 while (start < end)
 *ptr2++ = str[start++];
 *ptr2 = '\0';
-ptr1[k] = tmp - c;
+ptr1[k] = ptr2 - c;
 c = 0;
 } 
 else if (c++ == 0) 
 start = 1;
  } 
-ptr[k] = NULL; 
-return (matrix);
+ptr1[k] = NULL; 
+return (ptr1);
 }
