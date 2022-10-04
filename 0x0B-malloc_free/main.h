@@ -11,3 +11,5 @@ int _putchar(char c);
 void simple_print_buffer(char *buffer, unsigned int size);
 int _strlen(char *s);
 char *_strcat(char *dest, char *src);
+char *argstostr(int ac, char **av);
+char **strtow(char *str);
