@@ -28,10 +28,12 @@ char *argstostr(int ac, char **av)
 int i, j = 0;
 int a, b = 0;
 char *p;
+if (ac == 0 || av == NULL)
+return (NULL);
 for (i = 0; i < ac; i++, j++)
 j += _strlen(av[i]);
 p = malloc(sizeof(char) * j + 1);
-if (ac == 0 || av == NULL || p == 0)
+if (p == 0)
 return (NULL);
 
 for (i = 0; i < ac; i++)
