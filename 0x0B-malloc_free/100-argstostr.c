@@ -11,8 +11,11 @@
 int _strlen(char *s)
 {
 int i = 0;
+if (i != NULL)
+{
 while (s[i])
 i++;
+}
 return (i);
 }
 
