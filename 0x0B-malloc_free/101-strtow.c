@@ -61,3 +61,4 @@ start = 1;
  } 
 ptr[k] = NULL; 
 return (matrix);
+}
