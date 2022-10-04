@@ -58,6 +58,7 @@ if (ptr2 == NULL)
 return (NULL);
 while (start < end)
 *ptr2++ = str[start++];
+
 *ptr2 = '\0';
 ptr1[k] = ptr2 - c;
 k++;
