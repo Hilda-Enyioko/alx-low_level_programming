@@ -21,7 +21,7 @@ a = 1;
 c++;
 }
 return (c);
-
+}
 
 /**
  * **strtow - splits a string into words
