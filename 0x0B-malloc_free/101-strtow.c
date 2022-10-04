@@ -39,7 +39,7 @@ words = count_word(str);
 if (words == 0)
 return (NULL);
 ptr1 = (char **)malloc(sizeof(char *) * (words + 1));
-if (matrix == NULL)
+if (ptr1 == NULL)
 return (NULL); 
 for (i = 0; i <=len; i++)
 {
@@ -56,10 +56,11 @@ while (start < end)
 *ptr2 = '\0';
 ptr1[k] = ptr2 - c;
 c = 0;
-} 
+}
+}
 else if (c++ == 0) 
 start = 1;
- } 
+} 
 ptr1[k] = NULL; 
 return (ptr1);
 }
