@@ -55,6 +55,7 @@ while (start < end)
 *ptr2++ = str[start++];
 *ptr2 = '\0';
 ptr1[k] = ptr2 - c;
+k++;
 c = 0;
 }
 }
