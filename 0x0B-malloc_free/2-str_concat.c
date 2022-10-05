@@ -31,18 +31,12 @@ int size;
 int size1 = _strlen(s1);
 int size2 = _strlen(s2);
 if (s1 == NULL)
-{
 s1 = "\0";
-}
 if (s2 == NULL)
-{
 s2 = "\0";
-}
 p = malloc(sizeof(char) * (size1 + size2) + 1);
 if (p == 0)
-{
 return (0);
-}
 for (size = 0; size <= size1 + size2; size++)
 {
 if (size < size1)
