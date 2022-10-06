@@ -9,7 +9,7 @@
  * @n: maximum bytes to be filled
  * Return: s
  */
-char *_memset(char *s, char b, unsigned int n)
+char *memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
 for (i = 0; n > 0; i++, n--)
@@ -33,6 +33,6 @@ return (NULL);
 ptr = malloc(nmemb * size);
 if (ptr == 0)
 return (0);
-_memset(m, 0, nmemb * size);
+memset(m, 0, nmemb * size);
 return (ptr);
 }
