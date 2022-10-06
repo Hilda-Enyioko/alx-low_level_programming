@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
  * *_memset - function that fills memory with a constant byte
@@ -9,15 +7,14 @@
  * @n: maximum bytes to be filled
  * Return: s
  */
-char *memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int i;
-for (i = 0; n > 0; i++, n--)
-{
-s[i] = b;
+char *ptr = s;
+while (n--)
+*s++ = b;
+return (ptr);
 }
-return (s);
-}
+
 
 /**
  * *_calloc - allocates memory for an array using malloc
@@ -33,6 +30,6 @@ return (NULL);
 ptr = malloc(nmemb * size);
 if (ptr == 0)
 return (0);
-memset(m, 0, nmemb * size);
+_memset(ptr, 0, nmemb * size);
 return (ptr);
 }
