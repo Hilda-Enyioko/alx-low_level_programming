@@ -29,7 +29,7 @@ if (nmemb == 0 || size == 0)
 return (NULL);
 ptr = malloc(nmemb * size);
 if (ptr == 0)
-return (0);
+return (NULL);
 _memset(ptr, 0, nmemb * size);
 return (ptr);
 }
