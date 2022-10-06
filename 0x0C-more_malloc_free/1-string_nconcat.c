@@ -35,7 +35,7 @@ if (s2 == NULL)
 s2 "\0";
 a = _strlen(s1);
 b = _strlen(s2);
-if (n < _strlen(s2)
+if (n < _strlen(s2))
 ptr = malloc(a + n * sizeof(char) + 1);
 else
 ptr = malloc(a + b + 1);
