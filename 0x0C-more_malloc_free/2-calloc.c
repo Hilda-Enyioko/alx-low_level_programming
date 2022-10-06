@@ -7,6 +7,7 @@
  * @n: maximum bytes to be filled
  * Return: s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 char *ptr = s;
