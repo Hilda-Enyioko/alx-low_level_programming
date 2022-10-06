@@ -23,3 +23,5 @@ Project 9: Learning about C static libraries
 Project A: C argc and argv
 
 Project B: Malloc and free
+
+Project C: More on C Mall of and Free
