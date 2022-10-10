@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * new_dog - create new data structure for dog
+ * new_dog - creates new data structure for dog
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner
