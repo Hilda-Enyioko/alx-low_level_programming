@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_dog: prints structure dog
+ * print_dog - prints structure dog
  * @d: struct dog
  * Return: Nothing
  */
