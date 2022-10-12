@@ -19,6 +19,8 @@ for (i = 0; i < size; i++)
 {
 if ((size > 0) && (cmp(array[i])))
 return (i);
+}
+}
 /*if no element matches*/
 return (-1);
 }
