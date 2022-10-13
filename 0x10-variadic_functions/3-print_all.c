@@ -13,7 +13,7 @@ unsigned int i, j, k;
 char *str;
 const char arg_types[] = "cifs";
 k = 0;
-va_start (a, format);
+va_start(a, format);
 i = 0;
 while (format && format[i])
 {
@@ -24,8 +24,7 @@ if (format[i] == arg_types[j] && k)
 {
 printf(", ");
 break;
-}
-j++;
+} j++;
 }
 switch (format[i])
 {
@@ -47,8 +46,7 @@ break;
 }
 printf("%s", str);
 break;
-}
-i++;
+} i++;
 }
 printf("\n");
 va_end(a);
