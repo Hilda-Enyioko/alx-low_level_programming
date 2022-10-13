@@ -48,6 +48,5 @@ printf("%s", str);
 break;
 } i++;
 }
-printf("\n");
-va_end(a);
+printf("\n"), va_end(a);
 }
