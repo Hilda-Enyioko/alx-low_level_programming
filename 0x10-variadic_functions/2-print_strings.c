@@ -14,15 +14,15 @@ unsigned int i;
 char *str;
 va_start(a, n);
 for (i = 0; i < n; i++)
-  {
-    str = va_arg(a, char*);
-    if (str)
-      printf("%s", str);
-    else
-      printf("nil");
-    if (separator && i != n - 1)
-      printf("%s", separator);
-  }
- printf("\n");
- va_end(a);
+{
+str = va_arg(a, char*);
+if (str)
+printf("%s", str);
+else
+printf("nil");
+if (separator && i != n - 1)
+printf("%s", separator);
+}
+printf("\n");
+va_end(a);
 }
