@@ -27,3 +27,7 @@ Project B: Malloc and free
 Project C: More on C Malloc and Free
 
 Project D: C Program Preprocessor
+
+Project E:
+
+Project F: C Pointers to Functions
