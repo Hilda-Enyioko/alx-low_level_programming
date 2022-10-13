@@ -19,9 +19,8 @@ str = va_arg(a, char*);
 if (str)
 printf("%s", str);
 else
-printf("nil");
-if (i != n - 1)
-if (separator)
+printf("(nil)");
+if (separator && i != n - 1)
 printf("%s", separator);
 }
 printf("\n");
