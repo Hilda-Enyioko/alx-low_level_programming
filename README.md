@@ -31,3 +31,7 @@ Project D: C Program Preprocessor
 Project E:
 
 Project F: C Pointers to Functions
+
+Project 10: C Variadic functions
+
+project 12: Data structures: linked lists
