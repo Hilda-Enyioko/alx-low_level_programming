@@ -3,7 +3,7 @@
 /*apply the constructor attribute to first function so that it is executed before main()*/
  void first(void) __attribute__ ((constructor));
 /**
- * first: function that is implemented before main() function
+ * first - function that is implemented before main() function
  *
  */
 void first(void)
