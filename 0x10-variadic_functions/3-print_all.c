@@ -9,12 +9,11 @@
 void print_all(const char * const format, ...)
 {
 va_list a;
-unsigned int i, j, k;
+unsigned int i = 0, j, k;
 char *str;
 const char arg_types[] = "cifs";
 k = 0;
 va_start(a, format);
-i = 0;
 while (format && format[i])
 {
 j = 0;
