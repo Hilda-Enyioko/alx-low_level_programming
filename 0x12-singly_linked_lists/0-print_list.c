@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints all elements of a list_t list
- * h: singly linked list
+ * @h: singly linked list
  * Return: number of node present in list h
  */
 
@@ -20,6 +20,3 @@ nelem++;
 }
 return (nelem);
 }
-		 
-  
-  
