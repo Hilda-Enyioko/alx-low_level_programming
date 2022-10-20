@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_list - prints all elements of a list_t list.
- * h: singley linked list
+ * print_list - prints all elements of a list_t list
+ * h: singly linked list
  * Return: number of node present in list h
  */
 
@@ -15,7 +15,7 @@ if (h->str == NULL)
 printf("[%d] %s\n", 0, "(nil)");
 else
 printf("[%d] %s\n", h->len, h->str);
-h =h->next;
+h = h->next;
 nelem++;
 }
 return (nelem);
