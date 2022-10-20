@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*apply the constructor attribute to first function so that it is executed before main()*/
- void first(void) __attribute__ ((construction));
+ void first(void) __attribute__ ((constructor));
 /**
  * first: function that is implemented before main() function
  *
