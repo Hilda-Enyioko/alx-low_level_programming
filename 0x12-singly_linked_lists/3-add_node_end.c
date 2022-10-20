@@ -3,7 +3,7 @@
 
 /**
  * *add_node_end - adds a new node at the end of a list_t list
- * @head:
+ * @head: head node of the list
  * @str: node to be added
  * Return: the address of the new element
  * or NULL if it failed
