@@ -25,7 +25,7 @@ return (NULL);
 i = 0;
 while (str[i])
 i++;
-temp->str = strdup(str);
+temp->str = dupStr;
 temp->len = i;
 temp->next = *head;
 *head = temp;
