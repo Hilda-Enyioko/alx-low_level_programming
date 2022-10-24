@@ -129,3 +129,5 @@ You can only declare a maximum of two variables in your function
 _putchar Function: this is contained in the file _putchar.c
 
 Test files: Other test files are contained in this directory. They are named in the format x-main.c where x represents the task number.
+
+Object codes: These are the files that contain the resulting output of the source codes. These files are named alphabetically according to the task it represents.
