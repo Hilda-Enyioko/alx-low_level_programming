@@ -20,7 +20,7 @@ if (*head == NULL)
 *head = new;
 else
 {
-tail = *new;
+tail = *head;
 while (tail->next != NULL)
 tail = tail->next;
 tail->next = new;
