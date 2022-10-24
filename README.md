@@ -34,4 +34,6 @@ Project F: C Pointers to Functions
 
 Project 10: C Variadic functions
 
-project 12: Data structures: linked lists
+Project 12: Data structures: linked lists
+
+Project 13: More on Singly Linked Lists
