@@ -17,5 +17,5 @@ temp = *head;
 headData = (*head)->n;
 *head = (*head)->next;
 free(temp);
-return(headData);
+return (headData);
 }
