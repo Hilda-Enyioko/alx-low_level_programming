@@ -11,9 +11,9 @@ size_t nnodes;
 nnodes = 0;
 while (h != NULL)
 {
-nnodes++;
 printf("%d\n", h->n);
 h = h->next;
+nnodes++;
 }
 return (nnodes);
 }
