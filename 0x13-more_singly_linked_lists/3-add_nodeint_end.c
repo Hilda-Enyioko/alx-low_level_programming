@@ -20,6 +20,8 @@ if (*head == NULL)
 *head = new;
 else
 {
+tail = *new;
+while (tail->next != NULL)
 tail = tail->next;
 tail->next = new;
 }
