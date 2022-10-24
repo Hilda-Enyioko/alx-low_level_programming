@@ -124,7 +124,7 @@ You can only declare a maximum of two variables in your function
 
 **Other Contents Of The Directory**
 
- Header File: this is contained in the file lists.h
+ Header File: Header file contains prototypes for all functions. This is contained in the file lists.h
 
 _putchar Function: this is contained in the file _putchar.c
 
