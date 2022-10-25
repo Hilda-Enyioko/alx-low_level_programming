@@ -19,4 +19,3 @@ head = head->next;
 }
 return (sum);
 }
-
