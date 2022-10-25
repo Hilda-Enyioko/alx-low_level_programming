@@ -20,7 +20,7 @@ return (NULL);
 new->n = n;
 if (idx == 0) /*if idx is in the head position*/
 {
-new->next = *head;
+new->next = image;
 *head = new;
 return (new);
 }
