@@ -18,6 +18,14 @@ temp = *head;
 free(temp);
 }
 for (node = 0; node < (index - 1); node++)
-*head = 
+{
+if (image == NULL || image->next == NULL)
+return (-1);
+image = image->next;
+}
+temp = image;
+image = image->next;
+free(temp);
+
 return (1);
 }
