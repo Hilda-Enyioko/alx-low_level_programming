@@ -18,12 +18,13 @@ new = malloc(sizeof(listint_t));
 if (new == NULL)
 return (NULL);
 new->n = n;
-index = 0;
 if (index == 0) /*if index in in the head position*/
 {
 new->next = *head;
 *head = new;
+return (new);
 }
+index = 0;
 while (index < (idx - 1))
 {
 if (image == NULL || image->next == NULL)
