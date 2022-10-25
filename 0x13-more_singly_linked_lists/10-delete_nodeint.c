@@ -14,6 +14,10 @@ unsigned int node;
 if (index == 0)
 {
 temp = *head;
-
-return (0);
+*head = (*head)->next;
+free(temp);
+}
+for (node = 0; node < (index - 1); node++)
+*head = 
+return (1);
 }
