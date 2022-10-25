@@ -33,6 +33,6 @@ image = image->next;
 index++;
 }
 new->next = image->next;
-image = new;
+image->next = new;
 return (new);
 }
