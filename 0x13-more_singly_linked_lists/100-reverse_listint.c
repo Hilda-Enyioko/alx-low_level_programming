@@ -12,4 +12,11 @@ listint_t *tail;
 if (*head == NULL || head == NULL)
 return (NULL);
 tail = NULL;
+while ((*head)->next != NULL)
+{
+temp = (*head)->next;
+(*head)->next = tail;
+tail = *head;
+*head = temp;
+}
 }
