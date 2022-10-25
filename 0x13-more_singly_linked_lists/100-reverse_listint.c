@@ -19,4 +19,6 @@ temp = (*head)->next;
 tail = *head;
 *head = temp;
 }
+(*head)->next = tail;
+return (*head);
 }
