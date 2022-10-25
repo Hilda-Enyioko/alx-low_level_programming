@@ -16,6 +16,7 @@ if (index == 0)
 temp = *head;
 *head = (*head)->next;
 free(temp);
+return (1);
 }
 for (node = 0; node < (index - 1); node++)
 {
