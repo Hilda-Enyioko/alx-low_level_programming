@@ -18,7 +18,7 @@ new = malloc(sizeof(listint_t));
 if (new == NULL)
 return (NULL);
 new->n = n;
-if (index == 0) /*if index in in the head position*/
+if (idx == 0) /*if idx is in the head position*/
 {
 new->next = *head;
 *head = new;
