@@ -7,7 +7,7 @@
 /*main.h - header file containing function prototypes*/
 
 unsigned int binary_to_uint(const char *b);
-void rev_index(int i, int j);
+int rev_index(int i, int j);
 int _putchar(char c);
 
 #endif
