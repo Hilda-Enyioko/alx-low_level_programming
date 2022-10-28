@@ -5,6 +5,7 @@
  * @n: pointer to bit
  * @index: index
  * Return: 1 on sucess, -1 on failure
+ */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 if (index >= (sizeof(unsigned long int) * 8))
