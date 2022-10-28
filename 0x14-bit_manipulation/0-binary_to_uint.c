@@ -7,12 +7,13 @@
  * @j: resulting index
  * Return: nothing
  */
-void rev_index(int i, int j)
+int rev_index(int i, int j)
 {
   const char *b;
   for (i = 0; b[i] != '\0'; i++)
     ;
   j = i;
+  return (j);
 }
 
 
@@ -25,7 +26,7 @@ void rev_index(int i, int j)
  * or 0 if b is NULL or one or more of the chars in string b
  * is not 0 or 1
  */
-unsigned int binary_to_uint(const char *)
+unsigned int binary_to_uint(const char *b)
 {
   int i;
   int j;
