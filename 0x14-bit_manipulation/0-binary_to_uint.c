@@ -6,16 +6,16 @@
  * @i: index of string to be reversed
  * @j: resulting index
  * Return: nothing
- *
-*int rev_index(int i, int j)
-*{
-* const char *b;
-* for (i = 0; b[i] != '\0'; i++)
-*  ;
-* j = i;
-*  return (j);
-*}
-*/
+ */
+int rev_index(int i, int j)
+{
+const char *b;
+for (i = 0; b[i] != '\0'; i++)
+ ;
+ j = i;
+ return (j);
+}
+
 
 
 
