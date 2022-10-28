@@ -30,16 +30,14 @@ for (i = 0; b[i] != '\0'; i++)
 unsigned int binary_to_uint(const char *b)
 {
   int i;
-int j;
   unsigned int convert;
   if (b[i] != '0' || b[i] != '1' || b[i] == '\0')
-    return (0);
+  return (0);
   convert = 0;
   for (i = 0; b[i] != '\0'; i++)
   {
-    rev_index(i, j);
-    while (j--)
-      convert += b[i] x ('2'^j);
+  convert <<= 1;
+  convert += b[i] - '0';
   }
   return (0);
 }
