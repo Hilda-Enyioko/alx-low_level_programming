@@ -15,8 +15,7 @@ if (b[i] == '\0')
 return (0);
 while ((b[i] == '0') || (b[i] == '1'))
 {
-convert <<= 1;
-convert += b[i] - '0';
+convert = (convert << 1) + (b[i] - '0');
 i++;
 }
 return (convert);
