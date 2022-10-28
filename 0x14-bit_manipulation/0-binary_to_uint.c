@@ -6,15 +6,16 @@
  * @i: index of string to be reversed
  * @j: resulting index
  * Return: nothing
- */
-int rev_index(int i, int j)
-{
-  const char *b;
-  for (i = 0; b[i] != '\0'; i++)
-    ;
-  j = i;
-  return (j);
-}
+ *
+*int rev_index(int i, int j)
+*{
+* const char *b;
+* for (i = 0; b[i] != '\0'; i++)
+*  ;
+* j = i;
+*  return (j);
+*}
+*/
 
 
 
@@ -29,7 +30,6 @@ int rev_index(int i, int j)
 unsigned int binary_to_uint(const char *b)
 {
   int i;
-  int j;
   unsigned int convert;
   if (b[i] != '0' || b[i] != '1' || b[i] == NULL)
     return (0);
