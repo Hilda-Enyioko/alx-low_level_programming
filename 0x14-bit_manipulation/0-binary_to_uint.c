@@ -31,14 +31,14 @@ unsigned int binary_to_uint(const char *b)
 {
   int i;
   unsigned int convert;
-  if (b[i] != '0' || b[i] != '1' || b[i] == NULL)
+  if (b[i] != '0' || b[i] != '1' || b[i] == '\0')
     return (0);
   convert = 0;
   for (i = 0; b[i] != '\0'; i++)
   {
     rev_index(i, j);
     while (j--)
-      convert += b[i] x 2^j;
+      convert += b[i] x '2^j';
   }
   return (0);
 }
