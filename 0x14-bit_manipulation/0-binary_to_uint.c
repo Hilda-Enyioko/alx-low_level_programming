@@ -17,6 +17,7 @@ while (b[i] == '0' || b[i] || '1')
 {
 convert <<= 1;
 convert += b[i] - '0';
+i++;
 }
 return (convert);
 }
