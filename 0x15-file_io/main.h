@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*this header file contains function prototypes for all functions in this directory*/
+/*main.h -contains function prototypes for all functions in this directory*/
 
 #include <unistd.h>
 #include <stdio.h>
