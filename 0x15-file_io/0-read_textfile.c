@@ -4,7 +4,7 @@
 /**
  * read_textfile - reads a text file and prints it to the POSIX standard output
  * @filename: the name of the text file to be read and printed
- * @letter: number of letters the function reads and prints
+ * @letters: number of letters the function reads and prints
  * Return: the actual number of letters the function could read or print
  * OR 0 if the file cannot be opened or read,
  * if the filename is NULL
@@ -35,6 +35,6 @@ return (0);
 
 
 free(buf);
-close (o);
+close(o);
 return (w);
 }
